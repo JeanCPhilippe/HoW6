@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HoW6</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Create">Criar Conta</string>
+    <string name="Login">Entrar</string>
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+    <string name="Search">Pesquisar</string>
+    <string name="Sair">Sair</string>
+
+    <drawable name="TabL">
+        <item>ic_homeapp</item>
+        <item>ic_explorer</item>
+        <item>ic_perfil</item>
+    </drawable>
+</resources>
