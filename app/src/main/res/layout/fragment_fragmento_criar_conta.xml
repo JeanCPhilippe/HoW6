@@ -58,24 +58,6 @@
         tools:hint="@tools:sample/date/ddmmyy"
     />
 
-    <CheckBox
-        android:id="@+id/checkMas"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Masculino"
-        android:layout_marginTop="375dp"
-        android:layout_marginStart="100dp"
-    />
-
-    <CheckBox
-        android:id="@+id/checkFem"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Feminino"
-        android:layout_marginTop="375dp"
-        android:layout_marginStart="200dp"
-    />
-
     <EditText
         android:id="@+id/editTextTextPassword2"
         android:layout_width="match_parent"

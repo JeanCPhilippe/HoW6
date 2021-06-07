@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
-        android:text="Endereço:"
+        android:text="Endereço"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="165dp"
     />
@@ -32,7 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
-        android:text="Nome:"
+        android:text="Nome"
         android:layout_marginLeft="165dp"
     />
     <TextView
@@ -40,8 +40,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
-        android:text="Descrição:"
+        android:text="Descrição"
         android:layout_marginLeft="165dp"
     />
+
     </LinearLayout>
 </RelativeLayout>

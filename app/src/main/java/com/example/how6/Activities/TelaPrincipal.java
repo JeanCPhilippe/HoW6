@@ -10,10 +10,17 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ListView;
 
 import com.example.how6.Adapter.PagerAdapter;
+import com.example.how6.Adapter.PontosAdapter;
+import com.example.how6.Pontos;
 import com.example.how6.R;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class TelaPrincipal extends AppCompatActivity {
 
@@ -57,11 +64,25 @@ public class TelaPrincipal extends AppCompatActivity {
     /**
      * Utilizado para adicionar os ícones nas Tabs
     **/
-    private void setupTabIcons() {
+    private void setupTabIcons()
+    {
        Options.getTabAt(0).setIcon(tabIcons[0]);
        Options.getTabAt(1).setIcon(tabIcons[1]);
        Options.getTabAt(2).setIcon(tabIcons[2]);
     }
+    ArrayList<Pontos> adicionarPontos()
+    {
+        ArrayList<Pontos> pontos = new ArrayList<Pontos>();
+        Pontos p = new Pontos("Cristo Redentor",R.drawable.cristoredentor,
+                "Parque Nacional da Tijuca - Alto da Boa Vista, Rio de Janeiro - RJ",
+                "Cristo Redentor é uma estátua art déco que retrata Jesus Cristo");
 
+        p = new Pontos("Parque do Ibirapuera",R.drawable.parque,
+                "Av. Pedro Álvares Cabral - Vila Mariana, São Paulo - SP, 04094-050",
+                "O mais importante parque urbano de São Paulo, o Ibirapuera " +
+                        "é ponto de encontro de amigos e famílias. ");
+
+        return pontos;
     }
+}
 
